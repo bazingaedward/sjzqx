@@ -8,5 +8,23 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "石家庄气象",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "天气信息"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "天气服务"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
