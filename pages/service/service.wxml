@@ -1,0 +1,20 @@
+<!--pages/service/service.wxml-->
+<view class="container">
+  <view class="grid-service">
+    <button class="btn-item">
+        <image src="image/info.jpg"
+          mode='scaleToFill'></image> 
+        <text>信息快报</text>
+    </button>
+    <button class="btn-item">
+      <image src="image/zl.jpg"
+        mode='scaleToFill'></image> 
+      <text>专题报告</text>
+    </button>
+    <button class="btn-item">
+      <image src="image/weather.jpg"
+        mode='scaleToFill'></image> 
+      <text>重要天气</text>
+    </button>
+  </view>
+</view>

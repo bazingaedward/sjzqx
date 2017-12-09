@@ -1,23 +1,25 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/info/info",
+    "pages/service/service"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#4267b2",
     "navigationBarTitleText": "石家庄气象",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"#ffffff"
   },
   "tabBar": {
     "position": "top",
+    "selectedColor": "#4267b2",
+    "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/info/info",
         "text": "天气信息"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/service/service",
         "text": "天气服务"
       }
     ]

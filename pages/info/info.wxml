@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="grid-info">
+    <button class="btn-item">
+       <image src="image/test.jpeg"
+        mode='scaleToFill'></image> 
+      <text>预报预警</text>
+    </button>
+    <button class="btn-item">
+       <image src="image/realtime.png"
+        mode='scaleToFill'></image> 
+      <text>天气实况</text>
+    </button>
+    <button class="btn-item">
+       <image src="image/radar.jpg"
+        mode='scaleToFill'></image> 
+      <text>雷达回波</text>
+    </button>
+    <button class="btn-item">
+       <image src="image/qushi.png"
+        mode='scaleToFill'></image> 
+      <text>天气趋势</text>
+    </button>
+  </view>
+</view>
