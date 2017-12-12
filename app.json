@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/info/info",
-    "pages/service/service"
+    "pages/service/service",
+    "pages/list/list",
+    "pages/list-item/list-item"
   ],
   "window":{
     "backgroundTextStyle":"light",

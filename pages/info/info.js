@@ -47,7 +47,7 @@ Page({
   },
   btnClick: function(e){
     wx.navigateTo({
-      url: 'http://www.baidu.com',
+      url: '/pages/list/list',
     })
   }
 })

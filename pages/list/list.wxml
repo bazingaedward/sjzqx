@@ -1,0 +1,5 @@
+<scroll-view scroll-y>
+  <text wx:for="{{array}}">
+  {{item.title}}
+  </text>
+</scroll-view>
