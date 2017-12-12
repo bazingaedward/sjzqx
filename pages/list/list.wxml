@@ -1,5 +1,6 @@
 <scroll-view scroll-y>
-  <text wx:for="{{array}}">
-  {{item.title}}
-  </text>
+  <view wx:for="{{array}}">
+    <text>{{item.title}}</text>
+    <rich-text nodes="{{item.content}}"></rich-text>
+  </view>
 </scroll-view>
